@@ -7,6 +7,7 @@ import Footer from "@/components/footer"
 import ScrollToTop from "@/components/scroll-to-top"
 import AutoScrollTop from "@/components/auto-scroll-top"
 import { Toaster } from "@/components/ui/toaster"
+import { Analytics } from "@vercel/analytics/next"
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -121,6 +122,7 @@ export default function RootLayout({
           <ScrollToTop />
           <Toaster />
         </div>
+        <Analytics />
       </body>
     </html>
   )
