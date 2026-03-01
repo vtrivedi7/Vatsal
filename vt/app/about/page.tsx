@@ -27,7 +27,7 @@ export default function About() {
               </AnimatedSection>
               <AnimatedSection className="md:w-2/3" delay={0.4}>
                 <p className="text-xl font-light text-foreground/90 leading-relaxed">
-                  My journey to founding RunLog AI has been shaped by deep technical expertise in AI/ML, proven
+                  My journey to founding Runlog has been shaped by deep technical expertise in AI/ML, proven
                   execution at scale, and firsthand experience with the challenges of deploying AI systems. I'm building
                   the infrastructure layer that enables teams to deploy trustworthy AI systems to production.
                 </p>
@@ -55,14 +55,14 @@ export default function About() {
                     Present
                   </span>
                 </div>
-                <h3 className="text-2xl font-medium text-foreground mb-3">RunLog AI</h3>
+                <h3 className="text-2xl font-medium text-foreground mb-3">Runlog</h3>
                 <p className="text-lg font-light text-foreground/80 leading-relaxed mb-3">
-                  Building RunLog Atlas, the infrastructure layer for human-in-the-loop AI systems. Drawing on ML
+                  Building Runlog Atlas, the infrastructure layer for human-in-the-loop AI systems. Drawing on ML
                   expertise from Meta and startup experience from Bridge and Dirac, solving the critical problem of how
                   teams can deploy trustworthy AI systems to production.
                 </p>
                 <p className="text-lg font-light text-foreground/80 leading-relaxed">
-                  RunLog Atlas provides confidence-first design, priority queue review, and reusable human
+                  Runlog Atlas provides confidence-first design, priority queue review, and reusable human
                   judgment—targeting the $10B market opportunity as AI systems move from demos to production.
                 </p>
               </div>
@@ -78,9 +78,7 @@ export default function About() {
                 </div>
                 <h3 className="text-2xl font-medium text-foreground mb-3">Bridge</h3>
                 <p className="text-lg font-light text-foreground/80 leading-relaxed">
-                  Built document intelligence pipelines processing 10,000+ documents daily with 90% average accuracy. Saw firsthand why extraction
-                  alone never scales—review was the bottleneck. This experience directly informed the core insight
-                  behind RunLog Atlas.
+                  Built document intelligence pipelines processing 10,000+ documents daily. Watched teams review nearly every output despite 90%+ extraction accuracy — and founded Runlog Atlas to solve the review bottleneck that extraction tools never address.
                 </p>
               </div>
             </AnimatedSection>
@@ -95,8 +93,7 @@ export default function About() {
                 </div>
                 <h3 className="text-2xl font-medium text-foreground mb-3">Dirac - Head of AI</h3>
                 <p className="text-lg font-light text-foreground/80 leading-relaxed mb-3">
-                  Set up AI systems from scratch handling 1M+ geometries. Led multiple projects from 0→1, implementing
-                  advanced algorithms that reduced user-facing latency by 70% and workflow interruptions by 90%.
+                  Head of AI at a CAD-automation startup. Processed 1M+ geometries and unstructured engineering PDFs; built confidence scoring and human-review workflows from scratch. Reduced user-facing latency by 70% and workflow interruptions by 90%.
                 </p>
               </div>
             </AnimatedSection>
@@ -149,6 +146,22 @@ export default function About() {
                   GPA. Financed entire education through internships at Microsoft, Capital One, and Cardlytics while
                   maintaining strong academic performance.
                 </p>
+              </div>
+            </AnimatedSection>
+          </div>
+        </div>
+      </section>
+
+      {/* Why I Built This */}
+      <section className="py-16 bg-primary/5">
+        <div className="container-custom">
+          <div className="max-w-3xl mx-auto">
+            <AnimatedSection delay={0.2}>
+              <div className="border-l-4 border-primary pl-8">
+                <p className="text-xl md:text-2xl font-light text-foreground leading-relaxed italic">
+                  "I've spent years building AI systems that extraction teams trust. Every one of them hit the same wall: humans reviewing everything, judgment discarded after each review, teams drowning as volume grew. Atlas makes judgment reusable — so review effort shrinks as data scales."
+                </p>
+                <p className="mt-4 text-sm font-medium text-primary">— Vatsal Trivedi, Founder & CEO, Runlog</p>
               </div>
             </AnimatedSection>
           </div>
@@ -315,12 +328,12 @@ export default function About() {
           <AnimatedText text="Let's Connect" className="text-4xl font-light mb-8 text-foreground" type="heading" />
           <AnimatedSection delay={0.2}>
             <p className="text-xl font-light mb-12 max-w-2xl mx-auto text-foreground/80 leading-relaxed">
-              Interested in RunLog AI, discussing AI infrastructure, or exploring collaboration opportunities?
+              Interested in Runlog Atlas, discussing AI infrastructure, or exploring collaboration opportunities?
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <AnimatedButton asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                <a href="https://runlogai.com" target="_blank" rel="noopener noreferrer">
-                  Learn About RunLog AI <ArrowRight className="ml-2 h-4 w-4" />
+                <a href="https://atlas.runlogai.com" target="_blank" rel="noopener noreferrer">
+                  Try Runlog Atlas <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </AnimatedButton>
               <AnimatedButton asChild variant="outline" className="border-primary text-primary hover:bg-primary/5">

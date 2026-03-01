@@ -211,7 +211,7 @@ export default function Projects() {
                     <p className="text-foreground/80 leading-relaxed">
                       Validated market needs, developed user-centric solutions, and drove rapid growth. While we
                       ultimately pivoted, the experience provided invaluable lessons about product development, user
-                      acquisition, and market validation that inform RunLog AI today.
+                      acquisition, and market validation that inform Runlog today.
                     </p>
                   </div>
                 </div>
@@ -239,8 +239,8 @@ export default function Projects() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <AnimatedButton asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                <a href="https://runlogai.com" target="_blank" rel="noopener noreferrer">
-                  Explore RunLog AI <ArrowRight className="ml-2 h-4 w-4" />
+                <a href="https://atlas.runlogai.com" target="_blank" rel="noopener noreferrer">
+                  Try Runlog Atlas <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </AnimatedButton>
               <AnimatedButton asChild variant="outline" className="border-primary text-primary hover:bg-primary/5">

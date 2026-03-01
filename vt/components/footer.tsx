@@ -22,12 +22,12 @@ export default function Footer() {
                 Vatsal Trivedi
               </Link>
             </motion.div>
-            <p className="text-sm text-gray-600 mt-1">Founder & CEO of RunLog AI</p>
+            <p className="text-sm text-gray-600 mt-1">Founder & CEO, Runlog</p>
           </div>
           <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
             {[
               { name: "About", path: "/about" },
-              { name: "RunLog AI", path: "/runlogai" },
+              { name: "Atlas", path: "/runlogai" },
               { name: "Projects", path: "/projects" },
               { name: "Contact", path: "/contact" },
             ].map((item, index) => (
@@ -53,7 +53,7 @@ export default function Footer() {
           transition={{ duration: 0.5, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          <p>© {currentYear} Vatsal Trivedi. All rights reserved.</p>
+          <p>© 2025 Runlog. All rights reserved.</p>
         </motion.div>
       </div>
     </motion.footer>

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowRight, Mail, ExternalLink } from "lucide-react"
+import { ArrowRight, Mail, ExternalLink, Calendar } from "lucide-react"
 import StatCard from "@/components/stat-card"
 import ClientPageWrapper, { AnimatedSection, AnimatedText, AnimatedButton } from "@/components/client-page-wrapper"
 
@@ -36,7 +36,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="group inline-flex items-center gap-2 text-lg md:text-xl text-primary font-medium hover:text-primary/80 transition-all underline decoration-primary/30 decoration-2 underline-offset-4 hover:decoration-primary/60"
                 >
-                  <span>RunLog AI</span>
+                  <span>Runlog</span>
                   <ExternalLink className="h-4 w-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </Link>
               </div>
@@ -50,13 +50,13 @@ export default function Home() {
               <AnimatedSection delay={0.6}>
                 <div className="flex gap-4">
                   <AnimatedButton asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                    <Link href="/contact">
-                      Contact <Mail className="ml-2 h-4 w-4" />
-                    </Link>
+                    <a href="https://atlas.runlogai.com" target="_blank" rel="noopener noreferrer">
+                      Try Atlas <ArrowRight className="ml-2 h-4 w-4" />
+                    </a>
                   </AnimatedButton>
                   <AnimatedButton asChild variant="outline" className="border-primary text-primary hover:bg-primary/5">
-                    <a href="https://runlogai.com" target="_blank" rel="noopener noreferrer">
-                      RunLog AI <ArrowRight className="ml-2 h-4 w-4" />
+                    <a href="https://calendly.com/vatsaltrivedi2000/30min" target="_blank" rel="noopener noreferrer">
+                      Book a Conversation <Calendar className="ml-2 h-4 w-4" />
                     </a>
                   </AnimatedButton>
                 </div>
@@ -149,9 +149,12 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <p className="text-lg font-light text-foreground/80 leading-relaxed">
+              <p className="text-lg font-light text-foreground/80 leading-relaxed mb-4">
                 The bottleneck isn't extraction. It's review, trust, and making human judgment reusable. That's what
-                RunLog Atlas solves.
+                Runlog Atlas solves.
+              </p>
+              <p className="text-lg font-light text-foreground/80 leading-relaxed">
+                The opening wedge: <strong className="font-medium">due diligence for venture capital and private equity</strong>. Atlas helps investment teams extract structured insights from pitch decks, data rooms, cap tables, financial statements, and deal memos — routing only uncertain observations to human review. The broader opportunity spans any domain where document volume outpaces review capacity.
               </p>
             </AnimatedSection>
           </div>
@@ -178,7 +181,7 @@ export default function Home() {
                 </p>
               </div>
               <p className="text-lg md:text-xl font-light text-foreground/80 leading-relaxed">
-                <strong className="font-medium">RunLog Atlas</strong> makes review scale with ambiguity, not volume.
+                <strong className="font-medium">Runlog Atlas</strong> makes review scale with ambiguity, not volume.
                 Human judgment compounds instead of being throwaway labor.
               </p>
             </AnimatedSection>
@@ -305,17 +308,17 @@ export default function Home() {
           />
           <AnimatedSection delay={0.2}>
             <p className="text-lg md:text-xl font-light mb-8 max-w-2xl mx-auto text-foreground/80 leading-relaxed">
-              I've lived this problem at Meta, Dirac, and Bridge. RunLog Atlas is the system that should have existed.
+              I've lived this problem at Meta, Dirac, and Bridge. Runlog Atlas is the system that should have existed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <AnimatedButton asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                <Link href="/contact">
-                  Get in Touch <Mail className="ml-2 h-4 w-4" />
-                </Link>
+                <a href="https://atlas.runlogai.com" target="_blank" rel="noopener noreferrer">
+                  Try Atlas <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
               </AnimatedButton>
               <AnimatedButton asChild variant="outline" className="border-primary text-primary hover:bg-primary/5">
-                <a href="https://runlogai.com" target="_blank" rel="noopener noreferrer">
-                  Explore RunLog AI <ArrowRight className="ml-2 h-4 w-4" />
+                <a href="https://calendly.com/vatsaltrivedi2000/30min" target="_blank" rel="noopener noreferrer">
+                  Book a Conversation <Calendar className="ml-2 h-4 w-4" />
                 </a>
               </AnimatedButton>
             </div>
