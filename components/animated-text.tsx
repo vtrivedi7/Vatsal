@@ -41,7 +41,7 @@ export default function AnimatedText({ text, className = "", delay = 0, type = "
 
   return (
     <motion.div
-      style={{ overflow: "visible", paddingBottom: "0.15em" }}
+      style={{ overflow: "hidden" }}
       variants={container}
       initial="hidden"
       whileInView="visible"
