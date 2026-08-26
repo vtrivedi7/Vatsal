@@ -27,7 +27,7 @@ export default function About() {
               </AnimatedSection>
               <AnimatedSection className="md:w-2/3" delay={0.4}>
                 <p className="text-xl font-light text-foreground/90 leading-relaxed">
-                  My journey to founding RunLog AI has been shaped by deep technical expertise in AI/ML, proven
+                  My journey to founding production AI has been shaped by deep technical expertise in AI/ML, proven
                   execution at scale, and firsthand experience with the challenges of deploying AI systems. I'm building
                   the infrastructure layer that enables teams to deploy trustworthy AI systems to production.
                 </p>
@@ -55,14 +55,14 @@ export default function About() {
                     Present
                   </span>
                 </div>
-                <h3 className="text-2xl font-medium text-foreground mb-3">RunLog AI</h3>
+                <h3 className="text-2xl font-medium text-foreground mb-3">production AI</h3>
                 <p className="text-lg font-light text-foreground/80 leading-relaxed mb-3">
-                  Building RunLog Atlas, the infrastructure layer for human-in-the-loop AI systems. Drawing on ML
+                  Building production AI systems, the infrastructure layer for human-in-the-loop AI systems. Drawing on ML
                   expertise from Meta and startup experience from Bridge and Dirac, solving the critical problem of how
                   teams can deploy trustworthy AI systems to production.
                 </p>
                 <p className="text-lg font-light text-foreground/80 leading-relaxed">
-                  RunLog Atlas provides confidence-first design, priority queue review, and reusable human
+                  production AI systems provides confidence-first design, priority queue review, and reusable human
                   judgment—targeting the $10B market opportunity as AI systems move from demos to production.
                 </p>
               </div>
@@ -80,7 +80,7 @@ export default function About() {
                 <p className="text-lg font-light text-foreground/80 leading-relaxed">
                   Built document intelligence pipelines processing 10,000+ documents daily with 90% average accuracy. Saw firsthand why extraction
                   alone never scales—review was the bottleneck. This experience directly informed the core insight
-                  behind RunLog Atlas.
+                  behind production AI systems.
                 </p>
               </div>
             </AnimatedSection>
@@ -315,14 +315,9 @@ export default function About() {
           <AnimatedText text="Let's Connect" className="text-4xl font-light mb-8 text-foreground" type="heading" />
           <AnimatedSection delay={0.2}>
             <p className="text-xl font-light mb-12 max-w-2xl mx-auto text-foreground/80 leading-relaxed">
-              Interested in RunLog AI, discussing AI infrastructure, or exploring collaboration opportunities?
+              Interested in production AI, discussing AI infrastructure, or exploring collaboration opportunities?
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <AnimatedButton asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                <a href="https://runlogai.com" target="_blank" rel="noopener noreferrer">
-                  Learn About RunLog AI <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
-              </AnimatedButton>
               <AnimatedButton asChild variant="outline" className="border-primary text-primary hover:bg-primary/5">
                 <Link href="/contact">
                   Get in Touch <ArrowRight className="ml-2 h-4 w-4" />

@@ -20,7 +20,7 @@ export default function Projects() {
               type="heading"
             />
             <AnimatedText
-              text="From Meta's 50M+ users to Bridge's production pipelines to building RunLog Atlas from scratch"
+              text="From Meta's 50M+ users to Bridge's production pipelines to building AI systems from scratch"
               className="text-xl font-light text-foreground/80 leading-relaxed"
               delay={0.2}
             />
@@ -60,14 +60,14 @@ export default function Projects() {
 
           {/* Project Deep Dives */}
           <div className="max-w-6xl mx-auto space-y-20">
-            {/* RunLog Atlas */}
+            {/* AI systems */}
             <AnimatedSection delay={0.1}>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="inline-block px-4 py-2 bg-primary/10 text-primary text-sm font-medium rounded-full mb-4">
                     Current
                   </div>
-                  <h2 className="text-4xl font-light text-foreground mb-6">RunLog Atlas</h2>
+                  <h2 className="text-4xl font-light text-foreground mb-6">AI systems</h2>
                   <p className="text-lg font-light text-foreground/80 leading-relaxed mb-6">
                     Building the infrastructure layer for human-in-the-loop AI systems. Atlas makes review scale with
                     ambiguity, not volume—enabling systems to get cheaper and more accurate over time.
@@ -96,13 +96,13 @@ export default function Projects() {
                     </div>
                   </div>
                   <AnimatedButton asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                    <a href="https://runlogai.com" target="_blank" rel="noopener noreferrer">
+                    <a href="#contact" target="_blank" rel="noopener noreferrer">
                       Learn More <ArrowRight className="ml-2 h-4 w-4" />
                     </a>
                   </AnimatedButton>
                 </div>
                 <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
-                  <Image src="/ai-running-analytics-dashboard.jpg" alt="RunLog Atlas" fill className="object-cover" />
+                  <Image src="/ai-running-analytics-dashboard.jpg" alt="AI systems" fill className="object-cover" />
                 </div>
               </div>
             </AnimatedSection>
@@ -126,7 +126,7 @@ export default function Projects() {
                     <h3 className="font-medium text-foreground mb-3">Key Insight</h3>
                     <p className="text-foreground/80 leading-relaxed">
                       Learned that confidence scores without operational routing are meaningless. Systems need to act on
-                      what they know—and what they don't. This insight became foundational to RunLog Atlas.
+                      what they know—and what they don't. This insight became foundational to AI systems.
                     </p>
                   </div>
                 </div>
@@ -149,7 +149,7 @@ export default function Projects() {
                     <h3 className="font-medium text-foreground mb-3">The Bottleneck</h3>
                     <p className="text-foreground/80 leading-relaxed">
                       Saw firsthand why extraction alone never scales. Deadlines broke teams, not models. This problem
-                      became the genesis of RunLog Atlas—making review scale with ambiguity, not volume.
+                      became the genesis of AI systems—making review scale with ambiguity, not volume.
                     </p>
                   </div>
                 </div>
@@ -211,7 +211,7 @@ export default function Projects() {
                     <p className="text-foreground/80 leading-relaxed">
                       Validated market needs, developed user-centric solutions, and drove rapid growth. While we
                       ultimately pivoted, the experience provided invaluable lessons about product development, user
-                      acquisition, and market validation that inform RunLog AI today.
+                      acquisition, and market validation that inform production AI today.
                     </p>
                   </div>
                 </div>
@@ -234,13 +234,13 @@ export default function Projects() {
           />
           <AnimatedSection delay={0.2}>
             <p className="text-xl font-light mb-12 max-w-2xl mx-auto text-foreground/80 leading-relaxed">
-              From Meta's scale to Bridge's insights to building RunLog Atlas—I'm focused on solving production AI
+              From Meta's scale to Bridge's insights to building AI systems—I'm focused on solving production AI
               challenges.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <AnimatedButton asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                <a href="https://runlogai.com" target="_blank" rel="noopener noreferrer">
-                  Explore RunLog AI <ArrowRight className="ml-2 h-4 w-4" />
+                <a href="#contact" target="_blank" rel="noopener noreferrer">
+                  Explore production AI <ArrowRight className="ml-2 h-4 w-4" />
                 </a>
               </AnimatedButton>
               <AnimatedButton asChild variant="outline" className="border-primary text-primary hover:bg-primary/5">

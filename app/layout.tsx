@@ -16,12 +16,12 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "Vatsal Trivedi | Founder of RunLog AI - Production AI Observability",
+  title: "Vatsal Trivedi | Founder of Production AI - Production AI Observability",
   description:
-    "Vatsal Trivedi, founder of RunLog AI. Built AI systems at Meta (50M+ users, 2022-2023), Head of AI at Dirac (1M+ geometries, 2023-2025), Bridge (10K+ docs/day, 2025). Now building RunLog Atlas.",
+    "Vatsal Trivedi, founder of Production AI. Built AI systems at Meta (50M+ users, 2022-2023), Head of AI at Dirac (1M+ geometries, 2023-2025), Bridge (10K+ docs/day, 2025). Now building production AI systems.",
   keywords: [
     "AI observability",
-    "RunLog AI founder",
+    "Production AI founder",
     "production AI infrastructure",
     "AI review systems",
     "Vatsal Trivedi",
@@ -41,21 +41,21 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://vatsaltrivedi.vercel.app",
-    title: "Vatsal Trivedi | Founder of RunLog AI",
-    description: "Built AI at Meta, Dirac, and Bridge. Now building RunLog Atlas: production-grade AI observability.",
+    title: "Vatsal Trivedi | Founder of Production AI",
+    description: "Built AI at Meta, Dirac, and Bridge. Now building production AI systems: production-grade AI observability.",
     siteName: "Vatsal Trivedi",
     images: [
       {
         url: "/linkedin.jpg",
         width: 1200,
         height: 630,
-        alt: "Vatsal Trivedi - Founder of RunLog AI",
+        alt: "Vatsal Trivedi - Founder of Production AI",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vatsal Trivedi | Founder of RunLog AI",
+    title: "Vatsal Trivedi | Founder of Production AI",
     description: "Built AI at Meta, Dirac, and Bridge. Now building production AI observability.",
     images: ["/linkedin.jpg"],
   },
@@ -91,17 +91,15 @@ export default function RootLayout({
               jobTitle: "Founder & CEO",
               worksFor: {
                 "@type": "Organization",
-                name: "RunLog AI",
-                url: "https://runlogai.com",
+                name: "Vatsal Trivedi",
               },
               url: "https://vatsaltrivedi.vercel.app",
               sameAs: [
                 "https://linkedin.com/in/vatsaltrivedi",
                 "https://github.com/vatsaltrivedi",
-                "https://runlogai.com",
               ],
               description:
-                "Founder of RunLog AI, building production-grade AI observability systems. Previously at Meta (2022-2023), Dirac (2023-2025), and Bridge (2025).",
+                "Founder of Production AI, building production-grade AI observability systems. Previously at Meta (2022-2023), Dirac (2023-2025), and Bridge (2025).",
               knowsAbout: [
                 "AI Observability",
                 "Production AI Systems",

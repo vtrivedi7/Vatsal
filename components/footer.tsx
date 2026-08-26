@@ -22,12 +22,11 @@ export default function Footer() {
                 Vatsal Trivedi
               </Link>
             </motion.div>
-            <p className="text-sm text-gray-600 mt-1">Founder & CEO of RunLog AI</p>
+            <p className="text-sm text-gray-600 mt-1">AI builder and product leader</p>
           </div>
           <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
             {[
               { name: "About", path: "/about" },
-              { name: "RunLog AI", path: "/runlogai" },
               { name: "Projects", path: "/projects" },
               { name: "Contact", path: "/contact" },
             ].map((item, index) => (
