@@ -18,6 +18,16 @@ const nextConfig = {
 
   // Ensure proper transpilation of framer-motion
   transpilePackages: ['framer-motion'],
+
+  async redirects() {
+    return [
+      {
+        source: '/runlogai',
+        destination: '/work',
+        permanent: true,
+      },
+    ]
+  },
 }
 
 export default nextConfig

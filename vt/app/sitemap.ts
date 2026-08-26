@@ -24,22 +24,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/technical-expertise`,
+      url: `${baseUrl}/work`,
       lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/entrepreneurial-journey`,
+      url: `${baseUrl}/projects`,
       lastModified: currentDate,
       changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/vision`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.8,
     },
   ]
 }
